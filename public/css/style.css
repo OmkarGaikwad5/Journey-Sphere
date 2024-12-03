@@ -1,0 +1,137 @@
+body {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    flex: 1;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+.nav-link:hover {
+    color: #fe424d;
+}
+
+a.nav-link {
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #f8f0f0;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-links {
+    gap: 2rem !important; 
+}
+
+.f-info-brand {
+    display: flex;
+    justify-content: center;
+}
+
+.f-info-socials {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+
+.f-info {
+    height: 8rem;
+    background-color: #ebebeb;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    width: 100%;
+}
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400 !important;
+}
+
+.listing-link:hover {
+    opacity: 0.6;  
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay:hover{
+    opacity: 1;
+}
+
+.edit-btn{
+    background-color: #fe424d !important;
+    height: 2.3rem !important;
+}
+
+.btns{
+    display: flex;
+    border: none !important;
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+    flex: 0 0 auto;
+}
+
+.card{
+    display: inline-block;
+   padding: 5px;
+}

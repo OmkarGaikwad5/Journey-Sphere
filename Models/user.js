@@ -11,6 +11,10 @@ const userSchema = new Schema({
     username: {
         type: String,
         required: true,
+    },
+    author:{
+        type: Schema.Types.ObjectId,
+        ref: "User",
     }
 });
 
